@@ -1,0 +1,44 @@
+srcscan starts
+INFO: analyzing module ALU (VERI-9002)
+INFO: analyzing module InstructionDecode (VERI-9002)
+INFO: analyzing module EXStage (VERI-9002)
+INFO: analyzing module InstructionFetch (VERI-9002)
+INFO: analyzing module MUX_C (VERI-9002)
+INFO: analyzing module RISC_CPUPipeline_Testbench (VERI-9002)
+INFO: analyzing module RISCCPUTop (VERI-9002)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sources_1/new/RISC_TOP.v(245): INFO: undeclared symbol 'EXWB_N_xor_V', assumed default net type 'wire' (VERI-2561)
+INFO: analyzing module RegisterFile (VERI-9002)
+INFO: analyzing module WBStage (VERI-9002)
+INFO: analyzing module MEMStage (VERI-9002)
+INFO: analyzing module RegisterFile_tb (VERI-9002)
+INFO: analyzing module ALU_testbench (VERI-9002)
+INFO: analyzing module InstructionFetch_tb (VERI-9002)
+INFO: analyzing module InstructionDecode_tb (VERI-9002)
+INFO: analyzing module MEMStage_tb (VERI-9002)
+INFO: analyzing module EXStage_tb (VERI-9002)
+INFO: analyzing module WBStage_tb (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:RISC_CPUPipeline_Testbench
+VeriTop library:xil_defaultlib mod:RegisterFile_tb
+VeriTop library:xil_defaultlib mod:ALU_testbench
+VeriTop library:xil_defaultlib mod:InstructionFetch_tb
+VeriTop library:xil_defaultlib mod:InstructionDecode_tb
+VeriTop library:xil_defaultlib mod:MEMStage_tb
+VeriTop library:xil_defaultlib mod:EXStage_tb
+VeriTop library:xil_defaultlib mod:WBStage_tb
+END of tops
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sim_1/new/RISC_TB.v(24): INFO: compiling module 'RISC_CPUPipeline_Testbench_default' (VERI-1018)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sim_1/new/register_tb.v(25): INFO: compiling module 'RegisterFile_tb_default' (VERI-1018)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sources_1/new/tb.v(25): INFO: compiling module 'ALU_testbench_default' (VERI-1018)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sim_1/new/tb2.v(25): INFO: compiling module 'InstructionFetch_tb_default' (VERI-1018)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sim_1/new/tb3.v(23): INFO: compiling module 'InstructionDecode_tb_default' (VERI-1018)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sim_1/new/tb4.v(25): INFO: compiling module 'MEMStage_tb_default' (VERI-1018)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sim_1/new/tb5.v(23): INFO: compiling module 'EXStage_tb_default' (VERI-1018)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sim_1/new/tbwb.v(25): INFO: compiling module 'WBStage_tb_default' (VERI-1018)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sim_1/new/tb2.v(42): ERROR: cannot find port 'PC' on this module (VERI-1010)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sources_1/new/InstructionFetch.v(23): INFO: 'InstructionFetch' is declared here (VERI-9035)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sources_1/new/RISC_TOP.v(207): ERROR: cannot find port 'BA_out' on this module (VERI-1010)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sources_1/new/DecodeOperandFetch.v(23): INFO: 'InstructionDecode' is declared here (VERI-9035)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sources_1/new/RISC_TOP.v(206): ERROR: cannot find port 'AA_out' on this module (VERI-1010)
+C:/Users/Aworinde David/Downloads/NEW/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sources_1/new/DecodeOperandFetch.v(23): INFO: 'InstructionDecode' is declared here (VERI-9035)
+srcscan exits with return value 0

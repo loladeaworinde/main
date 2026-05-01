@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../HW5.srcs/sources_1/new/ALU.v" \
+"../../../../HW5.srcs/sources_1/new/DecodeOperandFetch.v" \
+"../../../../HW5.srcs/sources_1/new/EXstage.v" \
+"../../../../HW5.srcs/sources_1/new/InstructionFetch.v" \
+"../../../../HW5.srcs/sources_1/new/MUX_C.v" \
+"../../../../HW5.srcs/sources_1/new/RISC_TOP.v" \
+"../../../../HW5.srcs/sources_1/new/Register.v" \
+"../../../../HW5.srcs/sources_1/new/WBstage.v" \
+"../../../../HW5.srcs/sources_1/new/memaccess.v" \
+"../../../../HW5.srcs/sim_1/new/RISC_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,20 @@
+srcscan starts
+srcscan exits with return value 0
+02)
+INFO: analyzing module ALU_testbench (VERI-9002)
+INFO: analyzing module MEMStage (VERI-9002)
+INFO: analyzing module EXStage (VERI-9002)
+INFO: analyzing module InstructionDecode (VERI-9002)
+INFO: analyzing module RegisterFile (VERI-9002)
+INFO: analyzing module InstructionFetch (VERI-9002)
+INFO: analyzing module WBStage (VERI-9002)
+INFO: analyzing module MUX_C (VERI-9002)
+INFO: analyzing module RISCCPUTop (VERI-9002)
+INFO: analyzing module EXStage_tb (VERI-9002)
+INFO: analyzing module InstructionDecode_tb (VERI-9002)
+INFO: analyzing module InstructionFetch_tb (VERI-9002)
+INFO: analyzing module MEMStage_tb (VERI-9002)
+INFO: analyzing module RegisterFile_tb (VERI-9002)
+INFO: analyzing module RISC_CPUPipeline_Testbench (VERI-9002)
+INFO: analyzing module WBStage_tb (VERI-9002)
+srcscan exits with return value 0

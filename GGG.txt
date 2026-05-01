@@ -1,0 +1,96 @@
+; Initialize quotient (r4) and remainder (r5) to 0
+MOV r4, #0    ; Quotient set to 0
+MOV r5, #0    ; Remainder set to 0
+
+; Check for division by zero in the divisor (r3)
+OR r6, r3, r0 ; r6 = r3 OR 0, setting flags based on r3
+BZ r6, HANDLE_DIV_BY_ZERO ; If r3 is zero, branch to division by zero handling
+
+; Prepare for division: Sign handling for divisor (r3)
+; Assuming r12 is used for temporary storage of sign flags
+MOV r12, #0   ; Clear sign flags
+SHR r6, r3, #15 ; Shift right to isolate the sign bit of the divisor
+BNZ r6, NEGATE_DIVISOR ; If divisor is negative, branch to negation sequence
+JMP DIVISION_START ; If positive, jump to division start
+
+NEGATE_DIVISOR:
+NOT r3, r3    ; Bitwise NOT on r3 (negate)
+ADI r3, r3, #1 ; Add 1 to r3, completing two's complement negation
+ORI r12, r12, #1 ; Set LSB of r12 as divisor sign flag
+
+DIVISION_START:
+; Sign handling for dividend high part (r1)
+SHR r6, r1, #15 ; Shift right to check the sign bit of the high part of the dividend
+BNZ r6, NEGATE_DIVIDEND_HIGH ; If high part is negative, branch to negation sequence
+
+NEGATE_DIVIDEND_HIGH:
+NOT r1, r1    ; Bitwise NOT on r1 (negate high part)
+ADI r1, r1, #1 ; Add 1 to r1, completing two's complement negation
+ORI r12, r12, #2 ; Set second bit of r12 as high part dividend sign flag
+
+; Sign handling for dividend low part (r2), only if high part was negative
+BZ r12, DIVIDE ; If high part was positive, skip negating low part
+NOT r2, r2    ; Bitwise NOT on r2 (negate low part)
+ADI r2, r2, #1 ; Add 1 to r2, completing two's complement negation
+
+DIVIDE:
+; Division loop for the 64-bit dividend split between r1 (high) and r2 (low)
+; This loop effectively treats r1:r2 as a 64-bit register
+MOV r8, #31   ; Initialize loop counter for 32 iterations (31 down to 0)
+DIV_LOOP:
+; Shift left the remainder and bring down the next bit of the dividend
+LSL r5, r5    ; Left shift remainder to make room for the next bit
+SHR r6, r1, #15 ; Shift right the high part to bring down the next bit
+OR r5, r5, r6   ; OR it with the remainder
+; Perform the division operation for the current bit
+SUB r6, r5, r3  ; Try subtracting divisor from remainder
+BLTZ r6, CONTINUE ; If result is negative, cannot subtract, go to next bit
+MOV r5, r6      ; Update remainder with subtraction result
+ORI r4, r4, #1  ; Set the current bit in the quotient
+
+CONTINUE:
+; Prepare for the next iteration
+LSL r4, r4      ; Shift left the quotient for the next bit
+LSL r1, r1      ; Shift left the high part of the dividend for the next bit
+SUBI r8, r8, #1 ; Decrement loop counter
+BZ r8, SHIFT_LOW_PART ; If done with high part, start with low part
+JMP DIV_LOOP    ; Continue loop for the next bit
+
+SHIFT_LOW_PART:
+; After finishing high part, start shifting the low part
+MOV r1, r2      ; Move the low part of the dividend to the high part register
+MOV r8, #31     ; Reinitialize loop counter for the low part
+JMP DIV_LOOP    ; Jump back into the division loop
+
+; After division loop
+; Check if we need to adjust the sign of the quotient based on original signs
+ANDI r6, r12, #3 ; Extract original sign flags
+BZ r6, CHECK_OVERFLOW ; If both dividend and divisor were positive, skip to overflow check
+; Adjust the sign of the quotient
+NOT r4, r4
+ADI r4, r4, #1
+
+CHECK_OVERFLOW:
+; Check for overflow by examining if the quotient is negative
+SHR r6, r4, #15 ; Isolate the sign bit of the quotient
+BNZ r6, SET_OVERFLOW_FLAG ; If sign bit is set, we have an overflow
+
+JMP END ; Proceed to end if no overflow
+
+SET_OVERFLOW_FLAG:
+MOV r11, #2    ; Set r11 to indicate overflow
+
+END:
+NOP  ; Placeholder for end of program or further instructions
+
+HANDLE_DIV_BY_ZERO:
+MOV r11, #1   ; Set r11 to indicate division by zero error
+JMP END
+
+ always @(negedge clk) begin
+    if (reset) begin
+    PC <= 0;
+    end else begin
+         PC <= next_PC;
+    end
+    end

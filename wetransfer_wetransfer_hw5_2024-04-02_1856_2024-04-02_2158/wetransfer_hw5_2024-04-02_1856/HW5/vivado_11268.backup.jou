@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr 10 22:47:52 2024
+# Process ID: 11268
+# Current directory: C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17972 C:\Users\Aworinde David\Documents\wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158\wetransfer_hw5_2024-04-02_1856\HW5\HW5211.xpr
+# Log file: C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/vivado.log
+# Journal file: C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5\vivado.jou
+# Running On: DESKTOP-23ABI9G, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17068 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5211.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1

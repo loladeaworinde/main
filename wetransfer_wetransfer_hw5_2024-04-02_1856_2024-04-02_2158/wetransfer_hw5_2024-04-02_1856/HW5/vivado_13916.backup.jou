@@ -1,0 +1,134 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Apr 11 13:05:04 2024
+# Process ID: 13916
+# Current directory: C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11124 C:\Users\Aworinde David\Documents\wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158\wetransfer_hw5_2024-04-02_1856\HW5\HW5.xpr
+# Log file: C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/vivado.log
+# Journal file: C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5\vivado.jou
+# Running On: DESKTOP-23ABI9G, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17068 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+relaunch_sim
+save_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+save_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+save_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+relaunch_sim
+save_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl
+save_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Aworinde David/Documents/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/RISC_CPUPipeline_Testbench_behav1.wcfg}
+source RISC_CPUPipeline_Testbench.tcl

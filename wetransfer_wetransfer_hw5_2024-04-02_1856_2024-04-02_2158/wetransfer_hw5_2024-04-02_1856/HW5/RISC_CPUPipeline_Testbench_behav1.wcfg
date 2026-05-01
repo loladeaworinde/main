@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISC_CPUPipeline_Testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISC_CPUPipeline_Testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="50.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="296.753 ns"></ZoomEndTime>
+      <Cursor1Time time="219.718 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="208"></NameColumnWidth>
+      <ValueColumnWidth column_width="168"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/IF/next_PC" type="array">
+      <obj_property name="ElementShortName">next_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/muxC/next_PC" type="array">
+      <obj_property name="ElementShortName">next_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/IF_PC" type="array">
+      <obj_property name="ElementShortName">IF_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/IF_PC_updated" type="array">
+      <obj_property name="ElementShortName">IF_PC_updated[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_PC_updated[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX_BrA" type="array">
+      <obj_property name="ElementShortName">EX_BrA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_BrA[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/IF_IR" type="array">
+      <obj_property name="ElementShortName">IF_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_IR[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX_pcsrc" type="array">
+      <obj_property name="ElementShortName">EX_pcsrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_pcsrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID_FS_out" type="array">
+      <obj_property name="ElementShortName">ID_FS_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_FS_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX/u1/F" type="array">
+      <obj_property name="ElementShortName">F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX/ZFlag" type="logic">
+      <obj_property name="ElementShortName">ZFlag</obj_property>
+      <obj_property name="ObjectShortName">ZFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX/u1/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/MA" type="logic">
+      <obj_property name="ElementShortName">MA</obj_property>
+      <obj_property name="ObjectShortName">MA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/MB" type="logic">
+      <obj_property name="ElementShortName">MB</obj_property>
+      <obj_property name="ObjectShortName">MB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID_AA_out" type="array">
+      <obj_property name="ElementShortName">ID_AA_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_AA_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID_BA_out" type="array">
+      <obj_property name="ElementShortName">ID_BA_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_BA_out[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID_A_out" type="array">
+      <obj_property name="ElementShortName">ID_A_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_A_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID_B_out" type="array">
+      <obj_property name="ElementShortName">ID_B_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_B_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/B_data" type="array">
+      <obj_property name="ElementShortName">B_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B_data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/ConstantUnit" type="array">
+      <obj_property name="ElementShortName">ConstantUnit[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ConstantUnit[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers" type="array">
+      <obj_property name="ElementShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/regFile/registers[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX_F_out" type="array">
+      <obj_property name="ElementShortName">EX_F_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_F_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX_N_xor_V" type="logic">
+      <obj_property name="ElementShortName">EX_N_xor_V</obj_property>
+      <obj_property name="ObjectShortName">EX_N_xor_V</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX_muxD_out" type="array">
+      <obj_property name="ElementShortName">EX_muxD_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_muxD_out[1:0]</obj_property>
+   </wvobject>
+</wave_config>

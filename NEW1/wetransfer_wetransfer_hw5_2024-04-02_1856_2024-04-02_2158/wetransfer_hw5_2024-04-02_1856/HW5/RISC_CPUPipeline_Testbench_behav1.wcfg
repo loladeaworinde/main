@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISC_CPUPipeline_Testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISC_CPUPipeline_Testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="20.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="443.001 ns"></ZoomEndTime>
+      <Cursor1Time time="30.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="260"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/muxC/next_PC" type="array">
+      <obj_property name="ElementShortName">next_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/IF/next_PC" type="array">
+      <obj_property name="ElementShortName">next_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/IF_next_PC" type="array">
+      <obj_property name="ElementShortName">IF_next_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_next_PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/IFID_PC_updated" type="array">
+      <obj_property name="ElementShortName">IFID_PC_updated[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IFID_PC_updated[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/PC_1" type="array">
+      <obj_property name="ElementShortName">PC_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/IDEX_B_out" type="array">
+      <obj_property name="ElementShortName">IDEX_B_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_B_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX_BrA" type="array">
+      <obj_property name="ElementShortName">EX_BrA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_BrA[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX/ZFlag" type="logic">
+      <obj_property name="ElementShortName">ZFlag</obj_property>
+      <obj_property name="ObjectShortName">ZFlag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX/pcsrc" type="array">
+      <obj_property name="ElementShortName">pcsrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcsrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX_F_out" type="array">
+      <obj_property name="ElementShortName">EX_F_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_F_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/WB_writeData" type="array">
+      <obj_property name="ElementShortName">WB_writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/IFID_IR" type="array">
+      <obj_property name="ElementShortName">IFID_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IFID_IR[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/AA" type="array">
+      <obj_property name="ElementShortName">AA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">AA[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/BA" type="array">
+      <obj_property name="ElementShortName">BA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">BA[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/IDEX_A_out" type="array">
+      <obj_property name="ElementShortName">IDEX_A_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_A_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/ConstantUnit" type="array">
+      <obj_property name="ElementShortName">ConstantUnit[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ConstantUnit[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/regFile/registers" type="array">
+      <obj_property name="ElementShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/regFile/readData1" type="array">
+      <obj_property name="ElementShortName">readData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID/regFile/readData2" type="array">
+      <obj_property name="ElementShortName">readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/IF_IR" type="array">
+      <obj_property name="ElementShortName">IF_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_IR[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/ID_FS_out" type="array">
+      <obj_property name="ElementShortName">ID_FS_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_FS_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX_N_xor_V" type="logic">
+      <obj_property name="ElementShortName">EX_N_xor_V</obj_property>
+      <obj_property name="ObjectShortName">EX_N_xor_V</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_CPUPipeline_Testbench/cpu/EX_muxD_out" type="array">
+      <obj_property name="ElementShortName">EX_muxD_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_muxD_out[1:0]</obj_property>
+   </wvobject>
+</wave_config>

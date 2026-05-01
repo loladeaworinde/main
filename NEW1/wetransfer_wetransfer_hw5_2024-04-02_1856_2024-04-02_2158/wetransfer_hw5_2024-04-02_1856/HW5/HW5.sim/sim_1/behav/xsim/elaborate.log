@@ -1,0 +1,11 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_CPUPipeline_Testbench_behav xil_defaultlib.RISC_CPUPipeline_Testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 32 for port 'DA_out' [C:/Users/Aworinde David/Documents/NEW1/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sources_1/new/RISC_TOP.v:222]
+WARNING: [VRFC 10-5021] port 'clk' is not connected on this instance [C:/Users/Aworinde David/Documents/NEW1/wetransfer_wetransfer_hw5_2024-04-02_1856_2024-04-02_2158/wetransfer_hw5_2024-04-02_1856/HW5/HW5.srcs/sources_1/new/RISC_TOP.v:244]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

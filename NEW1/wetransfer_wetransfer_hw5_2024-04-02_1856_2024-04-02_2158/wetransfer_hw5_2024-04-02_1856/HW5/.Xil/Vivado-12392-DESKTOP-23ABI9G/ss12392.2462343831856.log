@@ -1,0 +1,13 @@
+ssrcscan startsIsrcscan exits with return value 0
+2)
+INFO: analyzing module ALU_testbench (VERI-9002)
+INFO: analyzing module MEMStage (VERI-9002)
+INFO: analyzing module EXStage (VERI-9002)
+INFO: analyzing module InstructionDecode (VERI-9002)
+INFO: analyzing module RegisterFile (VERI-9002)
+INFO: analyzing module InstructionFetch (VERI-9002)
+INFO: analyzing module WBStage (VERI-9002)
+INFO: analyzing module MUX_C (VERI-9002)
+INFO: analyzing module RISCCPUTop (VERI-9002)
+C:/Users/AWORIN~1/AppData/Local/Temp/VivadoEditorAssist6231200461608720603.tmp(248): INFO: undeclared symbol 'EXWB_N_xor_V', assumed default net type 'wire' (VERI-2561)
+srcscan exits with return value 0

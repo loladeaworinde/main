@@ -3,6 +3,7 @@ from __future__ import annotations
 from functools import lru_cache
 from typing import Literal
 
+from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -13,6 +14,18 @@ class Settings(BaseSettings):
     DATABASE_URL: str
     REDIS_URL: str
     SECRET_KEY: str
+
+    @field_validator("DATABASE_URL", mode="before")
+    @classmethod
+    def _coerce_db_url(cls, v: str) -> str:
+        # Railway managed PostgreSQL provides postgresql:// or postgres://
+        # SQLAlchemy asyncpg driver requires postgresql+asyncpg://
+        if isinstance(v, str):
+            if v.startswith("postgres://"):
+                v = "postgresql+asyncpg://" + v[len("postgres://"):]
+            elif v.startswith("postgresql://"):
+                v = "postgresql+asyncpg://" + v[len("postgresql://"):]
+        return v
 
     # Trading mode
     TRADING_MODE: Literal["paper", "live"] = "paper"
@@ -55,14 +68,26 @@ class Settings(BaseSettings):
     ALPACA_API_SECRET: str = ""
     ALPACA_BASE_URL: str = "https://paper-api.alpaca.markets"
 
-    # Binance
+    # Binance / Binance US
     BINANCE_API_KEY: str = ""
     BINANCE_API_SECRET: str = ""
     BINANCE_TESTNET: bool = True
+    CRYPTO_EXCHANGE: str = "binanceus"  # "binanceus" (default) or "binance" for non-US
 
     # Coinbase
     COINBASE_API_KEY: str = ""
     COINBASE_API_SECRET: str = ""
+
+    # Weex (crypto derivatives exchange — https://www.weex.com)
+    WEEX_API_KEY: str = ""
+    WEEX_API_SECRET: str = ""
+    WEEX_PASSPHRASE: str = ""        # required by Weex; set in API management
+
+    # Interactive Brokers (TWS / IB Gateway must be running locally)
+    IB_HOST: str = "127.0.0.1"
+    IB_PORT: int = 7497              # 7497=TWS paper | 7496=TWS live | 4002=Gateway paper | 4001=Gateway live
+    IB_CLIENT_ID: int = 1
+    IB_ACCOUNT: str = ""             # leave blank to use the primary account
 
     # Strategy allocation weights
     STRATEGY_MOMENTUM_WEIGHT: float = 0.25
@@ -70,6 +95,12 @@ class Settings(BaseSettings):
     STRATEGY_MEAN_REVERSION_WEIGHT: float = 0.20
     STRATEGY_OPTIONS_WEIGHT: float = 0.15
     STRATEGY_CRYPTO_WEIGHT: float = 0.15
+
+    # ML model paths (Phase 2)
+    MODEL_DIR: str = "models"                     # directory for all trained model files
+    META_MODEL_MIN_CONFIDENCE: float = 0.55       # below this → HOLD (don't trade)
+    META_MODEL_FORWARD_BARS: int = 5              # forward-return label horizon (bars)
+    REGIME_N_STATES: int = 6                      # number of HMM hidden states
 
 
 @lru_cache
